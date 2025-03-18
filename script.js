@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
         return; // יציאה מוקדמת אם Emailjs לא נטען
     }
 if(document.getElementById("display-from")){
-    document.getElementById("display-from").AddEventListiner('click', () =>{
-        window.open("https://dafnechita.netlify.app/");
+    document.getElementById("display-from").addEventListener('click', () =>{
+        window.open("https://dafnechita.netlify.app/", "_blank");
     } );
     
 }
