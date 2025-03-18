@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
         return; // יציאה מוקדמת אם Emailjs לא נטען
     }
+    //מעבר לדף המשתמש
 if(document.getElementById("display-from")){
     document.getElementById("display-from").addEventListener('click', () =>{
         window.open("https://dafnechita.netlify.app/", "_blank");
