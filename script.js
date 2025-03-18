@@ -6,7 +6,13 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
         return; // יציאה מוקדמת אם Emailjs לא נטען
     }
-
+if(document.getElementById("display-from")){
+    document.getElementById("display-from").AddEventListiner('click', () =>{
+        window.open("https://dafnechita.netlify.app/");
+    } );
+    
+}
+   
     // בדיקה אם העמוד הוא admin.html (עמוד האדמין)
     if (document.getElementById("submit-admin")) {
         // שליפה של כתובת המייל מה-LocalStorage
